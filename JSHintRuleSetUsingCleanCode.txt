@@ -1,0 +1,29 @@
+.jshintrc
+{
+	bitwise: true, // !
+	curly: true,
+	eqeqeq: true, // js-specific
+	esversion: 5, // js-specific
+	forin: true, // js-specific
+	freeze: true, // js-specific
+	funcscope: false, // js-specific
+	futurehostile: true, // js-specific
+	globals: false, // js-specific
+	latedef: true, // js-specific
+	maxcomplexity: 3, // !
+	maxdepth: 4, // !
+	maxparams: 3,
+	maxstatements: 7, // ! 20-30 lines
+	noarg: true, // js-specific
+	nonew: true,
+	nonbsp: true,
+	notypeof: true, // js-specific
+	shadow: "outer",
+	singleGroups: false,
+	strict: "global", // js-specific
+	undef: true,
+	unused: true,
+	varstmt: false, // js-specific
+}
+
+// TODO: check jscs rules for styling code
